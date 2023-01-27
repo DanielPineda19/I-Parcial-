@@ -16,5 +16,17 @@ namespace Proyecto_I
         {
             InitializeComponent();
         }
+
+        private void EjecutarButton_Click(object sender, EventArgs e)
+        {
+            //Variables 
+            decimal num1 = Convert.ToDecimal(Num1TextBox.Text);
+            decimal num2 = Convert.ToDecimal(Num1TextBox.Text);
+
+            decimal resultado = num1+num2;
+
+            MessageBox.Show("La suma es: " + resultado);
+
+        }
     }
 }
