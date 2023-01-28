@@ -34,6 +34,8 @@
             this.Num2TextBox = new System.Windows.Forms.TextBox();
             this.EjecutarButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.ResultadoTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -91,11 +93,30 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "SUMA DE NÚMEROS ";
             // 
+            // ResultadoTextBox
+            // 
+            this.ResultadoTextBox.Location = new System.Drawing.Point(214, 211);
+            this.ResultadoTextBox.Name = "ResultadoTextBox";
+            this.ResultadoTextBox.Size = new System.Drawing.Size(95, 20);
+            this.ResultadoTextBox.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(99, 210);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(96, 18);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Resultado:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(416, 251);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ResultadoTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.EjecutarButton);
             this.Controls.Add(this.Num2TextBox);
@@ -117,6 +138,8 @@
         private System.Windows.Forms.TextBox Num2TextBox;
         private System.Windows.Forms.Button EjecutarButton;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox ResultadoTextBox;
+        private System.Windows.Forms.Label label4;
     }
 }
 
