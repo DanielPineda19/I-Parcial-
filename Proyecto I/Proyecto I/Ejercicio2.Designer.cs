@@ -38,6 +38,7 @@
             this.EjecutarButton = new System.Windows.Forms.Button();
             this.ResultadoLabel = new System.Windows.Forms.Label();
             this.ErrorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,7 +114,7 @@
             // ResultadoLabel
             // 
             this.ResultadoLabel.AutoSize = true;
-            this.ResultadoLabel.Location = new System.Drawing.Point(262, 271);
+            this.ResultadoLabel.Location = new System.Drawing.Point(263, 271);
             this.ResultadoLabel.Name = "ResultadoLabel";
             this.ResultadoLabel.Size = new System.Drawing.Size(190, 24);
             this.ResultadoLabel.TabIndex = 7;
@@ -123,11 +124,22 @@
             // 
             this.ErrorProvider1.ContainerControl = this;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(152, 271);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 24);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Resultado:";
+            // 
             // Ejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(623, 353);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.ResultadoLabel);
             this.Controls.Add(this.EjecutarButton);
             this.Controls.Add(this.OperacionesComboBox);
@@ -157,5 +169,6 @@
         private System.Windows.Forms.Button EjecutarButton;
         private System.Windows.Forms.Label ResultadoLabel;
         private System.Windows.Forms.ErrorProvider ErrorProvider1;
+        private System.Windows.Forms.Label label4;
     }
 }
