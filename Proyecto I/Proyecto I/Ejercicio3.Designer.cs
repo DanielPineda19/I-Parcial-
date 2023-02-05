@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 523);
+            this.ClientSize = new System.Drawing.Size(515, 406);
             this.Controls.Add(this.ReemplazoTextBox);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.MinusculaTextBox);
