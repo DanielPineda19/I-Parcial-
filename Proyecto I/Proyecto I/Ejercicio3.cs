@@ -34,6 +34,8 @@ namespace Proyecto_I
             //En este ejemplo puedo aplicarle funciones a funciones y el aspecto de reemplazar las mayusculas y minusculas
             ReemplazoTextBox.Text = cadena.ToUpper().Replace("A", "E").ToLower();
         }
+
+        
     }
         
 }
