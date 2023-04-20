@@ -1,13 +1,7 @@
-﻿using System;
+﻿using POO; //Using de la libreria que cree
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using POO;
 
 namespace Proyecto_I
 {
@@ -23,14 +17,14 @@ namespace Proyecto_I
         Coche miCoche = null;
 
         //Declaro una lista de objetos de la clase Coche
-        List <Coche> listacoches = new List <Coche>();
+        List<Coche> listacoches = new List<Coche>();
 
 
         private void EjecutarPOOButton_Click(object sender, EventArgs e)
         {
             //INSTANCIAR OBJETO DE LA CLASE "COCHE"
-            //Coche miCoche = new Coche();
-            //Coche miCCoche2 = new Coche("Toyota", "22R");
+            //Coche miCoche = new Coche();   //Objeto con CONTRUCTOR VACIO
+            //Coche miCCoche2 = new Coche("Toyota", "22R"); //Objeto con CONTRUCTOR CON PARAMETROS
 
 
 
@@ -50,7 +44,7 @@ namespace Proyecto_I
 
             //Instacio mi objeto de la Clase Coche
             //Instancio mi objeto con constructor vacio
-            miCoche = new Coche();   
+            miCoche = new Coche();
 
             //Aqui a las propiedades del objeto le paso los valores que ingreso el usuario en los TextBox que estan en las variables
             //Asigno a la propiedad un valor
@@ -87,10 +81,10 @@ namespace Proyecto_I
         }
 
         //Procedimiento para limpiar controles
-        private void LimpiarControles ()
+        private void LimpiarControles()
         {
             MarcaTextBox.Clear();
-            ModeloTextBox.Text=string.Empty;
+            ModeloTextBox.Text = string.Empty;
             PrecioTextBox.Text = "";
             KMTextBox.Clear();
         }

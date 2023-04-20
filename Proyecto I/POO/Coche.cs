@@ -12,7 +12,7 @@ namespace POO
 
     public class Coche
     {
-        //ATRIBUTOS
+        //ATRIBUTOS: son como variables que almacenan los valores
         private string marca;
         private string modelo;
         private decimal precio;
